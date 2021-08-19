@@ -78,3 +78,14 @@ button.badge {
 .text-right {
   text-align: right;
 }
+
+.redBadge {
+  background-color: #f04040;
+  color: #ffffff;
+  padding: 2px 2px;
+  display: inline-block;
+  min-width: 15px;
+  min-height: 15px;
+  border-radius: 5px;
+  text-align: center;
+}

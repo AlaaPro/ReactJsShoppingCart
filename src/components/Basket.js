@@ -51,6 +51,14 @@ export default function Basket(props) {
               <strong>{totalPrice}</strong>
             </span>
           </div>
+          <div className="row">
+            <button
+              className="checkOut"
+              onClick={() => alert('Checkout not ready yet')}
+            >
+              Checkout
+            </button>
+          </div>
         </div>
       )}
     </aside>
